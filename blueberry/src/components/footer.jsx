@@ -3,7 +3,7 @@ import './footer.css';
 function Footer() {
     return (
     <div className="footer">
-        <h5>footer will be here</h5>
+        <h5>Support Local</h5>
     </div>
     ); 
 }
