@@ -1,28 +1,28 @@
 var catalog = [
     {
         _id: "5f40a6baac77a903d8f682c6",
-        price: 10.00,
+        price: 10.01,
         stock: 33,
         title: "Small Basket",
-        image: "img/small_basket.jpg",
+        image: "small_basket_300x200.jpg",
         discount: 0,
         category: "berries",
       },
       {
         _id: "5f40a6ba41d9e5044ced586c",
-        price: 20.00,
+        price: 20.01,
         stock: 11,
         title: "Medium Basket",
-        image: "product-6.jpg",
+        image: "medium_basket.jpg",
         discount: 0,
         category: "berries",
       },
       {
         _id: "5f40a6baa9e6e22fa1d5fac4",
-        price: 30.0,
+        price: 30.01,
         stock: 6,
         title: "Large Basket",
-        image: "img-14.jpg",
+        image: "big_basket.jpg",
         discount: 0,
         category: "berries",
       },
@@ -31,7 +31,7 @@ var catalog = [
         price: 8.00,
         stock: 11,
         title: "Blueberry Jam",
-        image: "product-6.jpg",
+        image: "jam.jpg",
         discount: 0,
         category: "goods",
       },
@@ -40,8 +40,19 @@ var catalog = [
         price: 13.00,
         stock: 7,
         title: "Blueberry Gelato",
-        image: "product-6.jpg",
+        image: "blueberry_gelato.jpg",
         discount: 0,
         category: "goods",
       },
     ]
+
+
+    class DataService{
+      getCatalog(){
+        //some instructions to retrieve data from the actual server
+
+        return catalog;
+      }
+    }
+
+    export default DataService;
