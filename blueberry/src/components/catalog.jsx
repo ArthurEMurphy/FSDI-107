@@ -19,7 +19,7 @@ const Catalog = () => {
 
 
     return (<div className="catalog">
-        <h2>|   Our current blueberry offering   |</h2>
+        <h2>   Blueberry offering   </h2>
         <h3>We have {products.length} products available!</h3>
         {products.map((prod) => (<Product key={prod._id} data={prod}></Product>))}
         

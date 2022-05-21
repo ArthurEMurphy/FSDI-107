@@ -11,7 +11,7 @@ const Product = (props) => {
 
     return (<div className='product'>
                 <img src={'/img/'+props.data.image} />
-                <h2>{props.data.title}</h2>
+                <h4>{props.data.title}</h4>
                 <label > Price: ${props.data.price}</label>
                 <label > Total: $     </label>
                 <QuantityPicker></QuantityPicker>
